@@ -6,7 +6,7 @@
   <title>Gambar dengan Alert dan Background</title>
   <style>
         body {
-            background-color: skyblue;
+            background: linear-gradient(to bottom right, #96fbc4, #f9f586); /* Gradasi hijau muda */
             font-family: sans-serif;
         }
         
@@ -56,8 +56,8 @@
         }
 
         .kotakLuar {
-            width: 300px; /* Ubah nilai ini untuk mengatur panjang kotak */
-            height: 300px; /* Ubah nilai ini untuk mengatur lebar kotak */
+            width: 800px; /* Ubah nilai ini untuk mengatur panjang kotak */
+            height: 700px; /* Ubah nilai ini untuk mengatur lebar kotak */
             margin: 20px auto;
             border: 2px solid #333;
             padding: 30px;
@@ -71,6 +71,13 @@
             width: 100%; /* Full width for cells */
             height: 100%; /* Full height for cells */
         }
+
+        .kotakLuar .kotak .Gambar {
+            width: 50%; /* Full width for cells */
+            height: 70%; /* Full height for cells */
+        }
+
+
   </style>
 </head>
 <body>
@@ -78,17 +85,18 @@
   <div class="container">
   </div>
 
-  <div class="kotak">Nusantara Food</div>
+  <div class="kotak">Eid-Fitri</div>
   
   <div class="kotakLuar">
-    <div class="kotak">1</div>
+    <div class="kotak">
+        
+    </div>
     <div class="kotak">2</div>
-
   </div>
 
   <img src="image.jpg" alt="Gambar">
 
-  <div class="Button">
+  <div class="Button" style="text-align: center;">
     <button onclick="myFunction()">Klik Saya</button>
   </div>
 
